@@ -9,9 +9,9 @@ public class Product
     String category;
     public  Product(int id,String name,String category)
     {
-         this.productId=id;
-         this.productName=name;
-         this.category=category;
+        this.productId=id;
+        this.productName=name;
+        this.category=category;
     }
     public String toString()
     {
@@ -19,7 +19,7 @@ public class Product
     }
 
 }
-class Ecommerse_Seach
+class Ecommerce_Seach
 {
     public static Product linear_search(Product[] obj,String target )
     {
