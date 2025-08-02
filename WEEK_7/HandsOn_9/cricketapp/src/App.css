@@ -1,0 +1,43 @@
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.office-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.office-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.office-card:hover {
+  transform: scale(1.01);
+}
+
+.office-card h2 {
+  margin-top: 0;
+  color: #34495e;
+}
